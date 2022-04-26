@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1><img src="img/Logo.png" alt=""></h1>
+    </header>
+
+    <main>
+        <div class="contenedorprincipal">
+            <section class="cajaprincipal" id="cajaprincipal">
+                <textarea id="textoprincipal" cols="45" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            </section>
+
+            <section class="cajabotones">    
+                <p><img src="img/Vector.svg" alt=""> Solo letras minúsculas y sin acentos</p>
+                <button class="button" id="button1">Encriptar</button>
+                <button class="button" id="button2">Desencriptar</button>
+            </section>
+        </div>
+    </main>
+
+    <aside>
+        <section class="cajalateral">
+            <article>
+                
+                <div class="primermodelo" id="primermodelo">
+                    <img src="img/Muñeco.png" alt="Ningún mensaje fue encontrado">
+                    <h2>Ningún mensaje fue encontrado</h2>
+                    <p>Ingresa el texto que desees encriptar o desencriptar</p>
+                </div>
+                <div class="segundomodelo" id="segundomodelo">
+                    <textarea id="textoLateral"></textarea>
+                    <button id="buttonCopy" >Copiar</button>
+                </div>
+            </article>
+        </section>
+    </aside>
+
+    <footer>
+        <div class="contacto">
+            <p id="tarjetaContacto">CONTACTO</p>
+        </div>
+        <div class="contenedorenlaces" id="footer">
+            
+            <ul class="enlacesUl">
+                <li><a href="mailto:santiagomaza33@gmail.com?">Correo Electronico</a></li>
+                <li><a href="https://www.linkedin.com/in/santiago-maza-b6a0251aa/">Cuenta de LinkedIn</a></li>
+                <li><a href="https://github.com/EmAMaz">Cuenta de Github</a></li>
+            </ul>            
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
